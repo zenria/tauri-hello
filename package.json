@@ -1,0 +1,15 @@
+{
+  "name": "tauri-hello",
+  "scripts": {
+    "tauri": "tauri",
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0-beta.10",
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.0-beta.8"
+  }
+}
